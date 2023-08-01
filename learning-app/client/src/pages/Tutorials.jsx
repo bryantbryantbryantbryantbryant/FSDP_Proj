@@ -50,7 +50,7 @@ function Tutorials() {
     return (
         <Box>
             <Typography variant="h5" sx={{ my: 2 }}>
-                Charging Stations Available
+                Edit Charging Stations
             </Typography>
 
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
