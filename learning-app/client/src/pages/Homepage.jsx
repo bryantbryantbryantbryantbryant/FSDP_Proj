@@ -7,7 +7,7 @@ function Homepage() {
             <img src="src/images/ss.png" alt="React Image" />
             <div>
                 <Typography variant="h5" sx={{ my: 2 }}>
-                    Rent a station near you blabla
+                    Rent a station near you 
                 </Typography>
                 <Typography variant="subtitle1" sx={{ my: 2 }}>
                     Anytime, anywhere with just 3 simple steps
