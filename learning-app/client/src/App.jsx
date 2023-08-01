@@ -15,7 +15,7 @@ function App() {
           <Toolbar disableGutters={true}>
             <Link to="/homepage">
               <Typography variant="h6" component="div">
-                Homepage
+                EVCharge
               </Typography>
             </Link>
             <Link to="/tutorials" ><Typography>Chargers</Typography></Link>
