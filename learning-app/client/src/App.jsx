@@ -22,7 +22,7 @@ function App() {
             </Link>
             <Link to="/customerview" ><Typography>Charger</Typography></Link>
             <Link to="/mapping" ><Typography>Map</Typography></Link>
-            <Link to="/tutorials" ><Typography>Admin-Chargers</Typography></Link>
+            <Link to="/tutorials" ><Typography>Admin Chargers</Typography></Link>
             
             
           </Toolbar>
