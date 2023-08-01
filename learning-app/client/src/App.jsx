@@ -5,6 +5,7 @@ import Tutorials from './pages/Tutorials';
 import AddTutorial from './pages/AddTutorial';
 import EditTutorial from './pages/EditTutorial';
 import Mapping from './pages/Mapping';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
@@ -12,13 +13,14 @@ function App() {
       <AppBar position="static" className="AppBar">
         <Container>
           <Toolbar disableGutters={true}>
-            <Link to="/">
+            <Link to="/homepage">
               <Typography variant="h6" component="div">
-                Learning
+                Homepage
               </Typography>
             </Link>
             <Link to="/tutorials" ><Typography>Chargers</Typography></Link>
             <Link to="/mapping" ><Typography>Map</Typography></Link>
+            
           </Toolbar>
         </Container>
       </AppBar>
@@ -30,6 +32,7 @@ function App() {
           <Route path={"/addtutorial"} element={<AddTutorial />} />
           <Route path={"/edittutorial/:id"} element={<EditTutorial />} />
           <Route path={"/mapping"} element={<Mapping />} />
+          <Route path={"/homepage"} element={<Homepage />} />
 
         </Routes>
       </Container>
